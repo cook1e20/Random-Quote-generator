@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Calculator</title>
+  <title>Random Quote Generator</title>
   
   
-  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
       <link rel="stylesheet" href="css/style.css">
 
   
@@ -14,42 +15,20 @@
 
 <body>
 
-  <div class="container">
-  <div class="base">
-    <h1>Javascript Calculator</h1>
-    <div class ="input">
-      <h2 id ="input">0<h2/>
-        <p id ="sum"></p>
-    </div>
-      <div class = "clearButt">
-     <button id="clear">AC</button>
-     <button id="clearLast">CE</button>
-      </div> 
-     
-    <div class="numbers">
-      <button id="1">1</button>
-      <button id="2">2</button>
-      <button id="3">3</button>
-      <button id="4">4</button>
-      <button id="5">5</button>
-      <button id="6">6</button>
-      <button id="7">7</button>
-      <button id="8">8</button>
-      <button id="9">9</button>
-    </div>
-    <div class="bodmas">
-      <button id="+">+</button>
-      <button id = "-">-</button>
-      <button id = "x">x</button>
-      <button id = "/">/</button>
-      <button id = ".">.</button>
-      <button id = "=">=</button>
-      
-    </div>
+  <div class="center-box">
+<div id="contentQuote"><p>Click to get a quote<p></div>
+<div id="authorQuote"></div>
 
+
+  <div class="buttonsDiv">
+    <a href="#" class="button" id="tweet-quote"  target="_blank">
+      <i class="fa fa-twitter"></i>
+      </a>
+    <button id="getQuote" class="button getQuote">Quote</button>
   </div>
 </div>
-  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
   
 
     <script  src="js/index.js"></script>
